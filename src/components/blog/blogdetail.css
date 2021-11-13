@@ -497,3 +497,50 @@ ul.share-social li {
 .paper-tag span {
   color: #708beb;
 }
+
+@media screen and (max-width: 991px) {
+  .blog-breadcrum {
+    padding: 20px 0px;
+  }
+
+  .blog-breadcrum ul {
+    white-space: nowrap;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .blog-breadcrum ul li {
+    display: inline-block;
+  }
+
+  .blog-hero {
+    height: auto;
+  }
+  .blog-content-left img {
+    width: 100%;
+  }
+  .related-resource-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem 2rem;
+  }
+  .blog-content-left {
+    padding-top: 50px;
+  }
+  .hero-info h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .blog-content-left h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .have-question h2 {
+    font-size: 18px;
+  }
+  .related-resource h2 {
+    font-size: 30px;
+  }
+  .what-think h2 {
+    font-size: 18px;
+  }
+}

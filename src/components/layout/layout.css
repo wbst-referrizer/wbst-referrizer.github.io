@@ -59,30 +59,62 @@ ul {
     display: inline-block;
   }
 
-  /********* Blog **********/
+  /************** Footer ***************/
 
-  .blog-breadcrum {
-    padding: 20px 0px;
-  }
-
-  .blog-breadcrum ul {
-    white-space: nowrap;
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
-  .blog-breadcrum ul li {
-    display: inline-block;
+  .footer-grid .footer-column:first-child {
+    display: none;
   }
 
-  .blog-hero {
-    height: auto;
+  .featured-content .post-author {
+    padding-bottom: 40px;
   }
-  .blog-content-left img {
+
+  .bottom-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.03);
+    margin: 0px -15px;
+    padding: 20px 0px 20px;
+  }
+
+  ul.social-icon li {
+    margin: 0px 18px;
+  }
+
+  ul.auth-menu li {
+    margin: 0 25px;
+  }
+  ul.social-icon li a img {
+    width: 22px;
+    height: 22px;
+  }
+  ul.auth-menu li:first-child {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    padding: 15px 0px;
+  }
+  ul.social-icon {
+    padding-bottom: 10px;
+  }
+  .footer-column {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .bottom-footer ul {
+    justify-content: center;
     width: 100%;
   }
-  .related-resource-container {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2rem 2rem;
+  .footer-column ul li {
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+  .footer-logo {
+    display: block;
+  }
+  .footer-logo img {
+    width: 122px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 }

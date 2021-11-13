@@ -69,3 +69,7 @@ ul.auth-menu li a:focus {
   color: #4c70f0;
   opacity: 1;
 }
+
+.footer-logo {
+  display: none;
+}

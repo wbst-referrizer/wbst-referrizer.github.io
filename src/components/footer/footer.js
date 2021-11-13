@@ -101,6 +101,9 @@ const Footer = () => {
         </div>
 
         <div className="bottom-footer">
+          <div className="footer-logo">
+            <img src={logo} alt="" />
+          </div>
           <ul className="social-icon">
             <li>
               <Link to="/">

@@ -360,3 +360,98 @@ span.marketing-tag {
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media screen and (max-width: 991px) {
+  .all-post-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem 2rem;
+  }
+  .featured-content .post-author {
+    padding-bottom: 40px;
+  }
+  .featured-content .post-info {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .featured-info h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .post-info span {
+    font-size: 14px;
+  }
+  .call-to-action-button a {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+    height: 40px;
+    line-height: 25px;
+  }
+  .newsletter-box h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .newsletter-form .btn {
+    min-width: 100px;
+  }
+  .newsletter-box::before {
+    display: none;
+  }
+  .newsletter {
+    margin: 60px -15px;
+    padding: 30px 0px;
+    border-radius: 0;
+  }
+  .post-img {
+    margin-bottom: 10px;
+  }
+  .featured-content .post-img img {
+    height: 220px;
+  }
+  .featured-content .post-box h3 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .all-post h2 {
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .post-box h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .all-post .newsletter-box h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .newsletter-box {
+    padding: 30px 20px;
+  }
+  .newsletter-box p {
+    font-size: 13px;
+  }
+
+  .newsletter-form .btn {
+    position: relative;
+    display: block;
+    min-width: 100%;
+    margin-top: 15px;
+  }
+
+  .newsletter-form form {
+    flex-wrap: wrap;
+  }
+  .newsletter:after {
+    display: none;
+  }
+  .call-to-action h2 {
+    font-size: 28px;
+  }
+  .call-to-action p {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+}
